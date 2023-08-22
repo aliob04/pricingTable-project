@@ -1,0 +1,87 @@
+body{    
+    font-size: 1.5rem;
+    background-color: #FAF0E4;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+
+    
+}
+.card{
+    padding: 40px;
+    flex-basis: 360px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 5px 30px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    min-width: 360px;
+    
+    
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#price{ margin-bottom: 120px;margin-top: 40px;}
+.number{font-size: 2.4rem;}
+#title{margin:100px 0 80px 0 ;font-size: 2rem;}
+.elements{margin: 30px; color: white; }
+
+.sign-up{
+    z-index: 1;
+    margin:30px;
+    width: 200px;
+    height: 40px;
+    border: 0px solid white;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0.3);
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+#price{
+    color: grey;
+}
+.basic{ background-image:linear-gradient(white 28%,#9BCDD2 10%,#9BCDD2) ;}
+.basic ul button{color: #9BCDD2; box-shadow: 0px 2px 6px #9BCDD2;}
+.number-basic{color: #9BCDD2; font-weight: 600;}
+.premium{background-image:linear-gradient(white 28%,#FF8551 10%, #FF8551);}
+.premium ul button{color: #FF8551; box-shadow: 0px 2px 6px #FF8551; }
+.number-premium{color: #FF8551; font-weight: 600;}
+.standard{background-image:linear-gradient(white 28%,#E8A9A9 10%, #E8A9A9) ;}
+.standard ul button{color: #E8A9A9; box-shadow: 0px 2px 6px #E8A9A9;}
+.number-standard{color: #E8A9A9; font-weight: 600;}
+
+
+.material-symbols-outlined {
+    position: relative;
+    top:5px;
+    color: rgb(28, 172, 93);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+#x{
+    color:red;
+}
